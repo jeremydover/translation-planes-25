@@ -107,7 +107,7 @@ Specifically, no AI-generated claims are reflected in this research without havi
 
 ## Contributing / Corrections
 
-TBD
+Questions, corrections, and contributions are welcome through the GitHub issue tracker at https://github.com/jeremydover/translation-planes-25/issues.
 
 ## License
 
