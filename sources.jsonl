@@ -1,4 +1,6 @@
 {"id":"czerwinskiOakden","type":"catalog","description":"source-descriptions/czerwinskiOakden.md","implementation":"implementations/czerwinskiOakden.m"}
+{"id":"rcNestReplacement","type":"catalog","description":"source-descriptions/rcNestReplacement.md","implementation":"implementations/rcNestReplacement.m"}
+{"id":"rcComplexReplacement","type":"catalog","description":"source-descriptions/rcComplexReplacement.md","implementation":"implementations/rcComplexReplacement.m"}
 
 {"id":"derivation","type":"transform","description":"source-descriptions/derivation.md","implementation":"implementations/derivation.m"}
 
