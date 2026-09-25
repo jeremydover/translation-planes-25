@@ -12,11 +12,13 @@ bakerEbertFlagTransitiveImplementation:=function(q,s,r);
 	
 	L:={F!1} join {beta^(s*(q+1))+a:a in K};
 	Lorb:={{x*beta^(2*i*(q+1)):x in L}:i in {1..(q^2+1) div 2}};
+	Lsp:={sub<V|{phi(x):x in l}>:l in Lorb};
 	
 	R:= {beta^r} join {beta^r*(beta^(s*q*(q+1))+a):a in K};
 	Rorb:={{x*beta^(2*i*(q+1)):x in R}:i in {1..(q^2+1) div 2}};
+	Rsp:={sub<V|{phi(x):x in l}>:l in Rorb};
 	
-	if #(&join(Lorb) meet &join(Rorb)) ne 0 then print "The chosen values of s and r do not determine a spread."; return 0; end if;
+	if {Dimension(x meet y):x in Lsp, y in Rsp} ne {0} then print "The chosen values of s and r do not determine a spread."; return 0; end if;
 	
 	sp:={sub<V|{phi(x):x in l}>:l in (Lorb join Rorb)};
 	
