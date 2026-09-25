@@ -18,7 +18,7 @@ Description: Order of ground field for q-nest construction; q must be an odd pri
 a
 =
 Type: Sequence of integers
-Description: The vector representation over the prime field of an element of GF(q), which describes a circle of the underlying bundle (in q-nest terms) which is disjoint from the nest.
+Description: The vector representation over the prime field of an element of GF(q), which describes a circle of the underlying pencil (in q-nest terms) which is disjoint from the nest.
 
 ### Example
 ```json
