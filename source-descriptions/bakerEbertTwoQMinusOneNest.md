@@ -3,6 +3,8 @@
 ## Reference
 Baker, R.D. and Ebert, G.L., Nests of size (q−1) and another family of translation planes. J. London Math. Soc. 38:341–355, 1988.
 
+Dover, J.M., Nests and nest accessories. Preprint.
+
 ## Instance Data
 q
 =
@@ -12,7 +14,7 @@ Description: Order of ground field for (q-1)-nest construction; q must be an odd
 b
 =
 Type: Sequence of integers
-Description: The vector representation over the prime field of an element of GF(q) which satisfies: b(b+1) is a nonzero square and -1/(b*w) is a nonzero square, where w is the norm of the primitive element of the field over GF(q).
+Description: The vector representation over the prime field of an element of GF(q) which satisfies: b(b+1) is a nonzero square.
 
 color
 =====

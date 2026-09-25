@@ -16,8 +16,7 @@ bakerEbertQMinusOneNest:=function(q,b:alt:=false);
 	
 	M,chi:=VectorSpace(F,PrimeField(F));
 	b:=(M!b)@@chi; /*b is in GF(q),not GF(q^2)*/
-	if b eq F!0 or b eq F!(-1) then print "b(b+1) must be a nonzero square"; return 0; end if;
-	if not(IsSquare(b*(b+1))) or not(IsSquare(-1/(b*F!(epsilon^2)))) then print "b does not meet the conditions to create a nest."; return 0; end if;
+	if b*(b+1) eq F!0 or not(IsSquare(b*(b+1))) then print "b(b+1) must be a nonzero square."; return 0; end if;
 	if not(alt) then
 		lambda,s:=convertRegulusLambdaABToLambdaS(K!1,F!1,b);
 	else

@@ -1,6 +1,6 @@
 load "implementations/bakerEbertQMinusOneNest.m";
 
-bakerEbertQMinusOneNestFlockDerivedImplementation:=function(q,b,mu);
+bakerEbertQMinusOneNestBundleDerivedImplementation:=function(q,b,mu);
 	lambdaSNest:=bakerEbertQMinusOneNest(q,b);
 	if Type(lambdaSNest) eq RngIntElt then return 0; end if;
 	
